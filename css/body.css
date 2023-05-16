@@ -207,8 +207,10 @@ body{
 }
 
 .footer{
+    /* margin-bottom: 50px; */
+    margin-top: 50px;
     padding: 15px;
-    height: 250px;
+    height: 200px;
     background-color: rgb(243, 243, 243);
     display: flex;
     align-items: center;
@@ -218,6 +220,8 @@ body{
 
 .icon_heading{
     display: flex;
+    font-size: xx-large;
+    font-weight: 600;
     justify-content: center;
     align-items: center;
 
@@ -229,6 +233,8 @@ body{
 }
 
 .footer_title{
-    font-size: x-large;
-    font-weight: 600;
+    width: 550px;
+    font-size: large;
+    /* font-weight: 600; */
+    color: gray ;
 }
